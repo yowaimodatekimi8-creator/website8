@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matematika - Bilangan (Pecahan seniali) dan Geometri (Persegi panjang)</title>
+<style>
+  body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    display: none;
+    padding: 30px;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: left;
+  }
+
+  .btn {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+    color: #222;
+  }
+
+  p {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  a {
+    color: #0078d7;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<!-- HALAMAN UTAMA -->
+<div id="home" class="container active">
+  <div class="card">
+    <h1>Matematika</h1>
+    <h2>Materi: Bilangan (Pecahan Senilai) dan Geometri (Persegi panjang)</h2>
+    <h3>Disusun oleh:</h3>
+    <p>1. Donatiani Yasinta Kue (102)<br>2. M. Salman Al Farisi (106)<br>3. Darma Putra U. Katanga (118)</p>
+    <hr>
+    <h3>Pilih Menu:</h3>
+    <button class="btn" onclick="show('bilangan')">Bilangan</button>
+    <button class="btn" onclick="show('geometri')">Geometri</button>
+    <button class="btn" onclick="show('kuis')">Kuis</button>
+    <button class="btn" onclick="show('evaluasi')">Evaluasi</button>
+  </div>
+</div>
+
+<!-- MENU BILANGAN -->
+<div id="bilangan" class="container">
+  <div class="card" style="text-align:center;">
+    <h2>Bilangan</h2>
+    <button class="btn" onclick="show('materiBilangan')">Materi</button>
+    <button class="btn" onclick="show('lkpdBilangan')">LKPD</button>
+    <button class="btn" onclick="show('home')">Kembali ke Halaman Utama</button>
+  </div>
+</div>
+
+<!-- MATERI BILANGAN -->
+<div id="materiBilangan" class="container">
+  <div class="card">
+    <h2>Pecahan Senilai </h2>
+    <h3>Capaian Pembelajaran</h3>
+    <p>mengenal dan dapat menerapkan pecahan senilai,</p>
+    <h3>Tujuan Pembelajaran</h3>
+    <ul>
+      <li>Peserta didik dapat menentukan pecahan senilai dari suatu pecahan dengan tepat. (C3)</li>
+      <li>Peserta didik dapat menemukan pecahan senilai dalam bentuk masalah atau cerita dengan benar. (C4)</li>
+      <li>Peserta didik dapat menunjukan hasil pekerjaan pecahan senilai dengan benar. (P3)</li>
+    </ul>
+    <h3>Pengantar Pecahan Senilai Dalam Kehidupan sehari-hari</h3>
+    <p>Anak-anak, pernahkah kalian membagi kue ulang tahun bersama teman-teman?
+    Misalnya, satu kue dibagi menjadi 2 bagian sama besar, maka setiap orang mendapat <img src="1dua.jpeg"width= "25px"height=25px>kue. Nah, kalau kue yang sama dibagi menjadi 4 bagian sama besar, setiap orang mendapat 2 potong dari 4 potong kue, atau <img src="2empat.jpeg"width= "25px"height=25px> kue. Coba perhatikan, <img src="1dua.jpeg"width= "25px"height=25px> dan <img src="2empat.jpeg"width= "25px"height=25px>itu sebenarnya jumlah kue yang sama, hanya cara membaginya berbeda. Inilah yang disebut dengan pecahan senilai, yaitu dua pecahan yang nilainya sama walaupun pembilang dan penyebutnya berbeda.<p>
+    <h3>Contoh Ilustrasi</h3>
+    <p>1. Bayangkan ada dua buah pizza dengan ukuran yang sama.Pizza pertama dibagi menjadi 2 bagian yang sama. Satu bagiannya bernilai <img src="1dua.jpeg"width= "25px"height=25px></p>
+    <p>2. Pizza kedua dibagi menjadi 4 bagian yang sama. Dua bagiannya bernilai <img src="2empat.jpeg"width= "25px"height=25px></p>
+
+    <h3>Cara Menentukan Pecahan Senilai</h3>
+    <p>A. Untuk menentukan pecahan senilai, kalikan pembilang dan penyebut dengan bilangan bulat yang sama (selain 1).</p>
+
+    <h3>Video Pembelajaran Cara Menentukan Pecahan Senilai:</h3>
+    <p><a href="https://youtu.be/-lGhglcdYY0?feature=shared" target="_blank">Klik di sini untuk menonton cara menentukan pecahan senilai</a></p>
+
+    <h3>Contoh Soal:</h3>
+    <li>
+      Contoh 1:  
+      Untuk menentukan pecahan senilai dari <img src="1dua.jpeg"width= "25px"height=25px>, kita dapat mengalikannya dengan 2:<br>
+      <img src="birubulat.jpeg"width= "60px"height=68px> <img src="1dua.jpeg"width= "25px"height=25px>= <img src="1dua 2dua.jpeg"width= "31px"height=31px>= <img src="2empat.jpeg"width= "25px"height=25px> jadi <img src="1dua.jpeg"width= "25px"height=25px> senilai dengan <img src="2empat.jpeg"width= "25px"height=25px>
+    </li>
+    <li>
+      Contoh 2:
+      Untuk mencari pecahan senilai dari <img src="new dua tiga.jpeg"width= "32px"height=30px> , kita bisa mengalikan pembilang dan penyebut dengan 2
+    <img src="new dua tiga.jpeg"width= "32px"height=30px>= <img src="dutidudu.jpeg"width= "31px"height=31px>= <img src="patnam.jpeg"width= "25px"height=25px> jadi <img src="new dua tiga.jpeg"width= "32px"height=30px> senilai dengan <img src="patnam.jpeg"width= "25px"height=25px> </li>
+    </p>
+    <p>B. Membagi pembilang dan penyebut dengan bilangan yang sama</p>
+    <p>Membagi pembilang dan penyebut suatu pecahan dengan bilangan yang sama. Pembagian ini sering digunakan untuk menyederhanakan pecahan ke bentuk yang paling sederhana.</p>
+    <p>Contoh:
+       Untuk mencari pecahan yang senilai dengan <img src="tigaenam.jpeg"width= "25px"height=25px> kita dapat membagi pembilang dan penyebutnya dengan 4, karena 4 adalah faktor persekutuan dari 36 dan 40.  
+    <p><img src="tigaenam.jpeg"width= "25px"height=25px>= <img src="tiganam bagi.jpeg"width= "50px"height=40px>= <img src="sembilansepuluh.jpeg"width= "25px"height=25px></p>
+    <p>Maka, <img src="tigaenam.jpeg"width= "25px"height=25px> dan <img src="sembilansepuluh.jpeg"width= "28px"height=28px> adalah pecahan-pecahan yang senilai</p>
+      
+    <h3>Penerapan Pecahan Senilai</h3>
+    <p>Sejatinya, konsep pecahan bisa dimanfaatkan dalam kehidupan sehari-hari. Begitu juga dengan pecahan senilai. Lalu, seperti apa sih contoh penerapan pecahan senilai?</p>
+    <h4>Contoh Soal</h4>
+    <p>
+      Ibu membeli sebuah kue utuh untuk dibagikan kepada tamu. Kue itu dipotong menjadi 8 bagian sama besar. Rani memakan 2 potong kue. Berapa potong yang dimakan rani jika di buat dalam pecahan. Dan berapa sisa kue tersebuut. 
+    </p>
+    <p><b>Penyelesaian:</b><br>
+      Awalnya kue 8 potong= <img src="seperlapan.jpeg"width= "35px"height=30px>.<br>
+      Dimakan Rani 2 potong= <img src="tragedi munich.jpeg"width= "30px"height=30px> disederhanakan menjadi =<img src="varca.jpeg"width= "43px"height=38px>= <img src="seprapat.jpeg"width= "32px"height=31px>= jadi kue yang dimakan Rani adalah<img src="seprapat.jpeg"width= "32px"height=31px>.<br>
+      Sisa kue yang dimakan Rani dari 8 potong dimakan 2= 8-2= 6 potong.<br>
+      Jadi, <img src="nemwolu.jpeg"width= "32px"height=31px> disederhanakan menjadi <img src="nemlu.jpeg"width= "40px"height=35px>= <img src="lupat.jpeg"width= "31px"height=30px>. Jadi sisa kue tersebut adalah <img src="lupat.jpeg"width= "31px"height=30px>.<br>
+    </p>
+
+    <div style="text-align:center;">
+      <button class="btn" onclick="show('bilangan')">Kembali</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= LKPD BILANGAN ================= -->
+<div id="lkpdBilangan" class="container">
+  <div class="card" style="text-align:center;">
+    <h2>LKPD Bilangan - Pecahan Senilai</h2>
+    
+    <h3>LKPD 1: Menentukan Pecahan Senilai</h3>
+
+    <p>1. Tentukan pecahan senilai dari pecahan 
+      <img src="2empat.jpeg" width="30" height="25"> =
+      <input type="text" id="q1" placeholder="Isi jawaban di sini">
+      <span id="r1"></span>
+    </p>
+
+    <p>2. Tentukan pecahan senilai dari pecahan 
+      <img src="tegalan.jpeg" width="35" height="30"> =
+      <input type="text" id="q2" placeholder="Isi jawaban di sini">
+      <span id="r2"></span>
+    </p>
+
+    <p>3. Tentukan pecahan senilai dari pecahan 
+      <img src="tragedi munich.jpeg" width="35" height="30"> =
+      <input type="text" id="q3" placeholder="Isi jawaban di sini">
+      <span id="r3"></span>
+    </p>
+
+    <h3>LKPD 2: Penerapan dalam Kehidupan Sehari-hari</h3>
+
+    <p>1. Dono membeli 10 kg jagung dan memberi setengah kepada ibunya. 
+       Jika sisa digunakan untuk memasak 100 g per hari, berapa hari jagung itu habis?
+      <input type="text" id="q4" placeholder="Isi jawaban di sini">
+      <span id="r4"></span>
+    </p>
+
+    <center>
+      <img src="hahaha.jpeg" width="190" height="130">
+    </center>
+
+    <p>2. Dari gambar di bawah, satu loyang pizza dipotong jadi 8 bagian dan dimakan 4 bagian. 
+       Berapa sisa pizza? (jawab dalam pecahan)
+      <input type="text" id="q5" placeholder="Isi jawaban di sini">
+      <span id="r5"></span>
+    </p>
+
+    <center>
+      <img src="telung piza.jpeg" width="190" height="130">
+    </center>
+
+    <p>3. Dari gambar di bawah, pizza dipotong jadi 8 bagian dan dimakan 3 bagian. 
+       Berapa sisa pizza? (jawab dalam pecahan)
+      <input type="text" id="q6" placeholder="Isi jawaban di sini">
+      <span id="r6"></span>
+    </p>
+
+    <button class="btn" onclick="checkAnswers()">Periksa Jawaban</button>
+    <button class="btn" onclick="show('bilangan')">Kembali</button>
+
+    <div id="scoreDisplay" style="margin-top: 20px; font-weight: bold;"></div>
+  </div>
+</div>
+
+<script>
+function checkAnswers() {
+  const correctAnswers = {
+    q1: ["4/8"],
+    q2: ["6/16"],
+    q3: ["4/16"],
+    q4: ["50", "50 hari"],
+    q5: ["4/8"],
+    q6: ["5/8"]
+  };
+
+  let score = 0;
+  const total = Object.keys(correctAnswers).length;
+
+  for (let i = 1; i <= total; i++) {
+    const input = document.getElementById("q" + i).value.trim().toLowerCase();
+    const result = document.getElementById("r" + i);
+
+    if (input === "") {
+      result.innerHTML = " ⚠️ Belum dijawab";
+      result.style.color = "orange";
+    } else if (correctAnswers["q" + i].includes(input)) {
+      result.innerHTML = " ✅ Benar!";
+      result.style.color = "green";
+      score++;
+    } else {
+      result.innerHTML = " ❌ Salah";
+      result.style.color = "red";
+    }
+  }
+
+  const scoreDisplay = document.getElementById("scoreDisplay");
+  if (score === total) {
+    scoreDisplay.innerHTML = "🎉 Hebat! Semua jawaban benar! Skor kamu: " + score + "/" + total;
+    scoreDisplay.style.color = "green";
+  } else {
+    scoreDisplay.innerHTML = "Skor kamu: " + score + " dari " + total;
+    scoreDisplay.style.color = "blue";
+  }
+}
+</script>
+
+
+
+<!-- MENU GEOMETRI -->
+<div id="geometri" class="container">
+  <div class="card" style="text-align:center;">
+    <h2>Geometri</h2>
+    <button class="btn" onclick="show('materiGeometri')">Materi</button>
+    <button class="btn" onclick="show('lkpdGeometri')">LKPD</button>
+    <button class="btn" onclick="show('home')">Kembali ke Halaman Utama</button>
+  </div>
+</div>
+
+<!-- MATERI GEOMETRI -->
+<div id="materiGeometri" class="container">
+  <div class="card">
+    <h2>Persegi Panjang</h2>
+
+    <h3>Capaian Pembelajaran</h3>
+    <p>Mendeskripsikan ciri berbagai bentuk bangun datar (segiempat, segitiga, segi banyak).</p>
+
+    <h3>Tujuan Pembelajaran</h3>
+    <ul>
+      <li>Peserta didik dapat menentukan keliling persegi panjang dengan benar. (C3)</li>
+      <li>Peserta didik dapat menentukan luas persegi panjang dengan benar. (C3)</li>
+      <li>peserta didik dapat memacahkan masalah keliling dan luas persegi panjang dalam bentuk soal cerita dengan benar. (C4)</li>
+    </ul>
+    <h3>Segiempat (Persegi pajang)</h3>
+
+    <h4>Contoh bentuk persegi panjang dalam kehidupan sehari-hari</h4>
+    <h3>PAPAN TULIS</h3>
+    <center>
+    <p><img src="pp tulis 1.jpeg"width= "300px"height=200px></p>
+    </center>
+    <p>Persegi panjang adalah bangun datar segi empat yang memiliki dua pasang sisi sejajar dan sama panjang, serta keempat sudutnya siku-siku (90 derajat).</p>
+    <h3>A.	SIFAT-SIFAT/CIRI-CIRI PERSEGI PANJANG</h3> 
+    <p><a href="https://www.youtube.com/watch?si=Icw3FKIyrooBNSE8&v=Uppa0SmTh6s&feature=youtu.be" target="_blank">Klik di sini untuk menonton sifat-sifat/ciri-ciri keliling persegi panjang</a></p>
+    <center>
+    <p><img src="sifat pp.jpeg"width= "310px"height=250px></p>
+    </center>
+    <li>Mempunyai 2 pasang sisi yang sama panjang dan sejajar = AB=CD AD=BC</li>
+    <li>Mempunyai 4 sudut siki-siku =  < A   < B     < C     < D</li>
+    <li>Mempunyai 2 diagonal yang berpotongan dan membagi 2 bagian sama besar =  AC     BD </li>
+    <h3>KELILING PERSEGI PANJANG</h3>
+    <center>
+    <p><img src="P. panjang.jpeg"width= "240px"height=200px></p>
+    </center>
+    <h4>Rumus Keliling persegi panjang: </h4>
+    <p>Jumlahkan semua sisi secara langsung: Persegi panjang memiliki empat sisi, dengan dua pasang sisi yang sama panjang. </p>
+    <p>sisi = AB+BC+CD+DA</p>
+    <li>Sisi pertama: panjang (p)</li>
+    <li>Sisi kedua: lebar (l)</li>
+    <li>Sisi ketiga Panjang: (p)</li>
+    <li>Sisi keempat: (l)</li>
+    
+
+    <p>= AB+BC+CD+DA</p>
+    <p>= P   + L  + P  + L</p>
+    <p>= (P+L) + (P+L)</p>
+    <p>K= 2 x (P+L)</p>
+    <p>Ket: </p>
+    <p>K = Keliling </p>
+    <p>p  = Panjang </p>
+    <p>l = lebar </p>
+    <h4>Link Penemuan Rumus Keliling Persegi Panjang</h4>
+    <p><a href="https://youtu.be/-_0AnHVxFGk?si=h1jMmFuLZvXxMAtO" target="_blank">Klik di sini untuk menonton cara penemuan rumus keliling persegi panjang</a></p>
+    <h4>CONTOH SOAL MENCARI KELILING PERSEGI PANJANG</h4>
+    <center>
+    <p><img src="tv ppp.jpeg"width= "250px"height=200px></p>
+    <p>1. Dari gambar di atas diketahui panjang televisi 12 cm dan lebar televisi 8 cm. Tentukan keliling televis tersebut.</p>
+    </center>
+    <p>Penyelesaian</p>
+    <p>Diketahui: p= 12 cm
+                  l= 8 cm</p>
+    <p>Ditanya: Keliling televisi</p>
+    <p>Jawab</p>
+    <p>K= 2 x (p+l)</p>
+    <p>K= 2 x (12 cm +8 cm)</p>
+    <p>K= 2 x 20 cm</p>
+    <p>K= 40 cm</p>
+    <p>Jadi, panjang dari papan tulis tersebut adalah 40 cm</p>
+
+
+    <center>
+    <p><img src="papan hitam.jpeg"width= "240px"height=170px></p>
+    </center>
+    <p>Dari gambar di atas diketahui keliling papan tulis adalah 120 cm dan dengan lebarnya 20 cm. Tentukan panjang dari papan tulis tersebut
+     Penyelesaian:</p>
+    <p>Diketahui: </p>
+    <p>K= 120 cm dan l= 20 cm</p>
+    <p>Ditanya: panjang papan tulis, Jawab: </p>
+    <p>K= 2 x (p+l)</p>
+    <p>= 120 cm= 2 x (p + 20 cm)</p>
+    <P>=<img src="satusrongpuluh.jpeg"width= "46px"height=40px> = p + 20 cm</P>
+    <p>= 60 cm = p + 20 cm</p>
+    <p>p = 60 cm – 20 cm</p>
+    <p>p = 40 cm</p>
+    <p>Jadi, panjang dari papan tulis tersebut adalah 40 cm</p>
+
+    <h3>LUAS PERSEGI PANJANG</h3>
+    <center>
+    <p><img src="P. panjang.jpeg"width= "240px"height=170px></p>
+    </center>
+    <h4>RUMUS LUAS PERSEGI PANJANG</h4>
+    <h4>Cara penemuan rumus luas persegi Panjang</h4>
+    <li>Visualisasikan dengan kotak satuan: Bayangkan sebuah persegi panjang, misalnya dengan panjang 4cm dan lebar 2cm</li>
+    <li>Hitung kotak satuan di setiap sisi: Gambar persegi panjang tersebut lalu isi dengan kotak-kotak satuan. Anda akan melihat ada 4kotak di sepanjang sisi panjang dan 2 kotak di sepanjang sisi lebar.</li>
+    <li>Hitung total kotak: total ada 2 baris kotak, dengan masing-masing garis berisi 4 kotak. Total semua kotak adalah 4 kotak + 4 kotak = 8 kotak atau 4 x 2 = 8 kotak.</li>
+    <li>Hubungkan dengan rumus: Jumlah total kotak satuan ini adalah luas dari persegi panjang tersebut, yang diperoleh dengan mengalikan panjang dengan lebarnya.</li>
+    <li>Rumuskan: jika L adalah luas, panjang adalah p dan lebar adalah l. Maka dirumuskan =</li>
+    <p>L= p x l</p>
+    <p>Ket: </p>
+    <p>L = luas </p>
+    <p>p= panjang</p>
+    <p>l= lebar</p>
+    <h4>Link Penemuan Rumus Luas Persegi Panjang</h4>
+    <p><a href="https://youtu.be/YgGiC2XeTzo?si=owEVVXe51CJ2h1Fb " target="_blank">Klik di sini untuk menonton penemuan rumus luas persegi panjang</a></p>
+    <h4>Contoh Soal Mencari Luas Persegi Panjang</h4>
+    <Center>
+    <p><img src="papan cagak.jpeg"width= "220px"height=160px></p>
+     </Center>
+    <p>Terdapat papan tulis yang memiliki panjang 10 cm dan lebar 8 cm. Tentukan luas papan tulis tersebut.</p>
+    <p>Penyelesaian:</p>
+    <p>Ditanya: luas papan tulis</p>
+    <p>Diketahui: p= 10 cm dan
+                  l= 8 cm</p>
+    <p>Jawab:</p>
+    <p>L= p x l</p>
+    <p>L= 10 cm x 8 cm</p>
+    <p>L= 80 cm2</p>
+    <p>Jadi luas papan tulis adalah 80 cm2</p>
+    <center>
+    <p><img src="mejo bro.jpeg"width= "250px"height=150px></p>
+    </center>
+    <p>Dari gambar meja yang berbentuk di atas di atas, memiliki luas 360 cm2, dan memiliki panjang 20 cm. Tentukan lebar dari meja tersebut!</p>
+    <p>Penyelesaian:</p>
+    <p>Diketahui: </p>
+    <p>Luas meja: 360 cm2 </p>
+    <p>Panjang meja: 20 cm</p>
+    <p>Ditanya: lebar meja (l)</p>
+    <p>Jawab:</p>
+    <p>L= p x l</p>
+    <p>360 cm2 = 20 cm x l</p>
+    <p>= (360 cm2)/20 = l</p>
+    <p>l = 18 cm    =  Lebar meja 18 cm</p>
+    <p>Jadi lebar meja tersebut adalah 18 cm</p>
+    <h4>CONTOH SOAL MENENTUKAN KELILING DAN LUAS PERSEGI PANJANG</h4>
+    <p>Pak Doni memiliki sebidang tanah berbentuk persegi panjang dengan panjangnya 25 meter dan lebarnya 15 meter, pak Doni ingin memagari seluruh tanahnya dan menanami rumput diseluruh permukaan tanah. Berapa panjamg kawat yang dibutuhkan pak Doni untuk pagar dan berapa luas tanah yang akan ditanami rumput?</p>
+    <p>Penyelesain: </p>
+    <p>Diketahui</p>
+    <p>panjang tanah = 25 meter dan
+                 Lebar tanah = 15 meter</p>
+    <p>Ditanya</p>
+    <p>Keliling/ panjang kawat dan
+                 Luas tanah yang akan ditanami rumput?</p>
+    <p>Jawab  : </p>
+    <p> Panjang kawat = Keliling tanah yang ingin diberi pagar</p>
+    <p>K = 2x (pxl)</p>
+    <p>K = 2x (25 M + 15 M)</p>
+    <p>K = 2x 40 M</p>
+    <p>K = 80 Meter</p>
+    <p> Luas tanah yang akan di tanami rumput</p>
+    <p>P = 25 M</p>
+    <p>L = 15 M</p>
+    <p>Luas = p x l</p>
+    <p>L  = 25 M + 15 M</p>
+    <p>L  = 40 M2</p>
+    <p>Jadi, Panjang kawat yang dibutuhkan pak Doni adalah 80 Meter. Dan luas tanah yang akan ditanami rumput oleh pak Doni adalah 40 M2</p>
+   <div style="text-align:center;">
+      <button class="btn" onclick="show('geometri')">Kembali</button>
+    </div>
+  </div>
+</div>
+
+  
+<!-- ================= LKPD GEOMETRI INTERAKTIF ================= -->
+<div id="lkpdGeometri" class="container">
+  <div class="card" style="text-align:center;">
+    <h2>LKPD GEOMETRI</h2>
+
+    <!-- ====== LKPD 1 ====== -->
+    <h3>LKPD 1</h3>
+    <h4>Menentukan Keliling Persegi Panjang</h4>
+
+    <center><img src="panjangggggg.jpeg" width="200" height="130"></center>
+    <p>
+      1. Panjang 50 cm dan lebar 40 cm. Tentukan kelilingnya:
+      <input type="text" id="g1" placeholder="jawaban kamu">
+      <span id="r1"></span>
+    </p>
+
+    <center><img src="sangangpuluh.jpeg" width="250" height="100"></center>
+    <p>
+      2. Panjang 180 cm dan lebar 90 cm. Tentukan kelilingnya:
+      <input type="text" id="g2" placeholder="jawaban kamu">
+      <span id="r2"></span>
+    </p>
+
+    <center><img src="suwidak.jpeg" width="200" height="120"></center>
+    <p>
+      3. Keliling 200 cm dan panjang 60 cm. Berapakah lebarnya?
+      <input type="text" id="g3" placeholder="jawaban kamu">
+      <span id="r3"></span>
+    </p>
+
+    <!-- ====== LKPD 2 ====== -->
+    <h3>LKPD 2</h3>
+    <h4>Menentukan Luas Persegi Panjang</h4>
+
+    <center><img src="pitung.jpeg" width="250" height="120"></center>
+    <p>
+      1. Panjang 120 cm dan lebar 70 cm. Tentukan luasnya:
+      <input type="text" id="g4" placeholder="jawaban kamu">
+      <span id="r4"></span>
+    </p>
+
+    <center><img src="seket.jpeg" width="190" height="130"></center>
+    <p>
+      2. Panjang 80 cm dan lebar 50 cm. Tentukan luasnya:
+      <input type="text" id="g5" placeholder="jawaban kamu">
+      <span id="r5"></span>
+    </p>
+
+    <center><img src="rongpuluh.jpeg" width="140" height="90"></center>
+    <p>
+      3. Panjang 50 cm dan lebar 20 cm. Tentukan luasnya:
+      <input type="text" id="g6" placeholder="jawaban kamu">
+      <span id="r6"></span>
+    </p>
+
+    <!-- ====== LKPD 3 ====== -->
+    <h3>LKPD 3</h3>
+    <h4>Memecahkan Masalah Keliling dan Luas Persegi Panjang</h4>
+
+    <p>1. Budi memiliki tempat tidur dengan keliling 380 cm dan lebar 80 cm.</p>
+    <p>Panjang:
+      <input type="text" id="g7a" placeholder="jawaban kamu">
+      <span id="r7a"></span>
+    </p>
+    <p>Luas:
+      <input type="text" id="g7b" placeholder="jawaban kamu">
+      <span id="r7b"></span>
+    </p>
+
+    <p>2. Pak Sumadi membuat plat besi ukuran panjang 70 cm dan lebar 40 cm.</p>
+    <p>Keliling:
+      <input type="text" id="g8a" placeholder="jawaban kamu">
+      <span id="r8a"></span>
+    </p>
+    <p>Luas:
+      <input type="text" id="g8b" placeholder="jawaban kamu">
+      <span id="r8b"></span>
+    </p>
+
+    <p>3. Pak Lukas membuat pintu rumah ukuran panjang 200 cm dan lebar 80 cm.</p>
+    <p>Keliling:
+      <input type="text" id="g9a" placeholder="jawaban kamu">
+      <span id="r9a"></span>
+    </p>
+    <p>Luas:
+      <input type="text" id="g9b" placeholder="jawaban kamu">
+      <span id="r9b"></span>
+    </p>
+
+    <button class="btn" onclick="checkGeoAnswers()">Periksa Jawaban</button>
+    <button class="btn" onclick="show('geometri')">Kembali</button>
+
+    <h3 id="score"></h3>
+  </div>
+</div>
+
+<script>
+function checkGeoAnswers() {
+  const answers = {
+    g1: "180 cm", g2: "540 cm", g3: "40 cm", 
+    g4: "8400 cm2", g5: "4000 cm2", g6: "1000 cm2",
+    g7a: "110 cm", g7b: "8800 cm2",
+    g8a: "220 cm", g8b: "2800 cm2",
+    g9a: "560 cm", g9b: "16000 cm2"
+  };
+
+  let score = 0;
+  let total = Object.keys(answers).length;
+
+  for (const id in answers) {
+    const input = document.getElementById(id);
+    const result = document.getElementById("r" + id.substring(1));
+    const val = input.value.trim().toLowerCase();
+
+    if (!val) {
+      result.textContent = "⚠️ Belum dijawab";
+      result.style.color = "orange";
+    } else if (val === answers[id].toLowerCase()) {
+      result.textContent = "✅ Benar!";
+      result.style.color = "green";
+      score++;
+    } else {
+      result.textContent = "❌ Salah";
+      result.style.color = "red";
+    }
+  }
+
+  const nilai = Math.round((score / total) * 100);
+  document.getElementById("score").innerHTML =
+    `Nilai kamu: <b>${nilai}</b> (${score} dari ${total} soal benar)`;
+}
+</script>
+
+
+
+
+
+<!-- MENU KUIS -->
+<div id="kuis" class="container">
+  <div class="card" style="text-align:center;">
+    <h2>Kuis</h2>
+    <button class="btn" onclick="show('kuis bilangan')">Kuis Bilangan</button>
+    <button class="btn" onclick="show('kuis geometri')">Kuis Geometri</button>
+    <button class="btn" onclick="show('home')">Kembali ke Halaman Utama</button>
+  </div>
+</div>
+
+<!-- KUIS BILANGAN -->
+<div id="kuis bilangan" class="container">
+  <div class="card">
+    <h2>Soal Kuis Pecahan Senilai</h2>
+    <form id="quizBilangan">
+      <p>1. Tentukan pecahan yang senilai dengan <img src="tenam.jpeg" width="34" height="31"></p>
+      <label><input type="radio" name="q1" value="a"> <img src="nemro.jpeg" width="38" height="35"></label><br>
+      <label><input type="radio" name="q1" value="b"> <img src="1dua.jpeg" width="33" height="30"></label><br>
+      <label><input type="radio" name="q1" value="c"> <img src="sembilansepuluh.jpeg" width="35" height="31"></label><br>
+      <label><input type="radio" name="q1" value="d"> <img src="tigalima.jpeg" width="35" height="32"></label><br>
+
+      <p>2. Tentukan pecahan yang senilai dengan <img src="pitulu.jpeg" width="38" height="33"></p>
+      <label><input type="radio" name="q2" value="a"> <img src="nemwolu.jpeg" width="40" height="37"></label><br>
+      <label><input type="radio" name="q2" value="b"> <img src="1dua.jpeg" width="33" height="30"></label><br>
+      <label><input type="radio" name="q2" value="c"> <img src="patlasnam.jpeg" width="39" height="35"></label><br>
+      <label><input type="radio" name="q2" value="d"> <img src="duasatutiga.jpeg" width="39" height="35"></label><br>
+
+      <p>3. Carilah pecahan yang senilai dengan <img src="molu.jpeg" width="34" height="31"> jika dikalikan dengan 3</p>
+      <label><input type="radio" name="q3" value="a"> <img src="1dua.jpeg" width="35" height="33"></label><br>
+      <label><input type="radio" name="q3" value="b"> <img src="patnam.jpeg" width="35" height="33"></label><br>
+      <label><input type="radio" name="q3" value="c"> <img src="mastu.jpeg" width="39" height="35"></label><br>
+      <label><input type="radio" name="q3" value="d"> <img src="semlas.jpeg" width="35" height="33"></label><br>
+
+      <p>4. Carilah pecahan yang senilai dengan <img src="pulas.jpeg" width="34" height="31"> jika membagikan dengan 2</p>
+      <label><input type="radio" name="q4" value="a"> <img src="lungo.jpeg" width="35" height="33"></label><br>
+      <label><input type="radio" name="q4" value="b"> <img src="1dua.jpeg" width="35" height="33"></label><br>
+      <label><input type="radio" name="q4" value="c"> <img src="lupat.jpeg" width="42" height="37"></label><br>
+      <label><input type="radio" name="q4" value="d"> <img src="motu.jpeg" width="42" height="39"></label><br>
+
+      
+
+      <button type="button" class="btn" onclick="checkBilangan()">Periksa Jawaban</button>
+      <p id="hasilBilangan"></p>
+    </form>
+    <button class="btn" onclick="show('kuis')">Kembali</button>
+  </div>
+</div>
+
+<!-- KUIS GEOMETRI -->
+<div id="kuis geometri" class="container">
+  <div class="card">
+    <h2>Soal Kuis Persegi Panjang</h2>
+    <form id="quizGeometri">
+      <p>1. Sebuah persegi panjang memiliki panjang 15 cm dan lebar 5 cm. Kelilingnya adalah</p>
+      <label><input type="radio" name="q1" value="a"> 20 cm</label><br>
+      <label><input type="radio" name="q1" value="b"> 30 cm</label><br>
+      <label><input type="radio" name="q1" value="c"> 40 cm</label><br>
+      <label><input type="radio" name="q1" value="d"> 50 cm</label><br>
+
+      <p>2. Sebuah persegi panjang memiliki panjang 17 cm dan lebar 8 cm. Kelilingnya adalah</p>
+      <label><input type="radio" name="q2" value="a"> 15 cm</label><br>
+      <label><input type="radio" name="q2" value="b"> 48 cm</label><br>
+      <label><input type="radio" name="q2" value="c"> 26 cm</label><br>
+      <label><input type="radio" name="q2" value="d"> 50 cm</label><br>
+
+      <p>3. Panjang sebuah persegi panjang adalah 12 cm dan lebarnya 8 cm. Luasnya adalah</p>
+      <label><input type="radio" name="q3" value="a"> 96 cm²</label><br>
+      <label><input type="radio" name="q3" value="b"> 20 cm²</label><br>
+      <label><input type="radio" name="q3" value="c"> 100 cm²</label><br>
+      <label><input type="radio" name="q3" value="d"> 80 cm²</label><br>
+
+      <p>4. Panjang sebuah persegi panjang adalah 14 cm dan lebarnya 9 cm. Luasnya adalah</p>
+      <label><input type="radio" name="q4" value="a"> 77 cm²</label><br>
+      <label><input type="radio" name="q4" value="b"> 18 cm²</label><br>
+      <label><input type="radio" name="q4" value="c"> 126 cm²</label><br>
+      <label><input type="radio" name="q4" value="d"> 99 cm²</label><br>
+
+
+      <button type="button" class="btn" onclick="checkGeometri()">Periksa Jawaban</button>
+      <p id="hasilGeometri"></p>
+    </form>
+    <button class="btn" onclick="show('kuis')">Kembali</button>
+  </div>
+</div>
+
+<script>
+function show(id) {
+  // Pastikan semua container disembunyikan
+  document.querySelectorAll('.container').forEach(c => c.classList.remove('active'));
+  // Tampilkan container yang dipilih
+  document.getElementById(id).classList.add('active');
+}
+
+function checkBilangan() {
+  let benar = 0;
+  const jawaban = { q1: "b", q2: "a", q3: "c", q4: "c" };
+  const form = document.forms["quizBilangan"];
+  for (let i in jawaban) {
+    if (form[i].value === jawaban[i]) benar++;
+  }
+  document.getElementById("hasilBilangan").innerText = `Skor Anda: ${benar}/4`;
+}
+
+function checkGeometri() {
+  let benar = 0;
+  const jawaban = { q1: "c", q2: "b", q3: "a", q4: "c" };
+  const form = document.forms["quizGeometri"];
+  for (let i in jawaban) {
+    if (form[i].value === jawaban[i]) benar++;
+  }
+  document.getElementById("hasilGeometri").innerText = `Skor Anda: ${benar}/4`;
+}
+</script>
+
+
+<!-- MENU EVALUASI -->
+<div id="evaluasi" class="container">
+  <div class="card" style="text-align:center;">
+    <h2>Evaluasi</h2>
+    <button class="btn" onclick="show('evaluasi bilangan')">Evaluasi Bilangan</button>
+    <button class="btn" onclick="show('evaluasi geometri')">Evaluasi Geometri</button>
+    <button class="btn" onclick="show('home')">Kembali ke Halaman Utama</button>
+  </div>
+</div>
+
+<!-- EVALUASI BILANGAN -->
+<div id="evaluasi bilangan" class="container">
+  <div class="card">
+    <h3>EVALUASI PECAHAN SENILAI</h3>
+
+    <form id="quizEvaluasiBilangan">
+      <p>1. Carilah pecahan yang senilai dengan 
+        <img src="tigalima.jpeg" width="30px" height="25px"> dengan cara mengalikan pembilang dan penyebut dengan 4!
+      </p>
+      <input type="text" id="q1" placeholder="Jawaban kamu...">
+      <span id="r1"></span>
+
+      <p>2. Carilah pecahan yang senilai dengan 
+        <img src="manam.jpeg" width="30px" height="25px"> dengan cara mengalikan pembilang dan penyebut dengan 5!
+      </p>
+      <input type="text" id="q2" placeholder="Jawaban kamu...">
+      <span id="r2"></span>
+
+      <p>3. Carilah pecahan yang senilai dengan 
+        <img src="semlas.jpeg" width="30px" height="25px"> dengan cara membagi pembilang dan penyebutnya dengan bilangan 3!
+      </p>
+      <input type="text" id="q3" placeholder="Jawaban kamu...">
+      <span id="r3"></span>
+
+      <p>4. Carilah pecahan yang senilai dengan 
+        <img src="duasatutiga.jpeg" width="37px" height="33px"> dengan cara membagi pembilang dan penyebutnya dengan bilangan 7!
+      </p>
+      <input type="text" id="q4" placeholder="Jawaban kamu...">
+      <span id="r4"></span>
+
+      <p>5. Tentukan tiga pecahan yang senilai dengan pecahan 
+        <img src="patnam.jpeg" width="28px" height="24px">
+      </p>
+      <input type="text" id="q5" placeholder="Pisahkan dengan koma (,)">
+      <span id="r5"></span>
+
+      <p>6. Tentukan tiga pecahan yang senilai dengan pecahan 
+        <img src="nemwolu.jpeg" width="35px" height="30px">
+      </p>
+      <input type="text" id="q6" placeholder="Pisahkan dengan koma (,)">
+      <span id="r6"></span>
+
+      <p>7. Tentukan tiga pecahan yang senilai dengan pecahan 
+        <img src="lungo.jpeg" width="30px" height="25px">
+      </p>
+      <input type="text" id="q7" placeholder="Pisahkan dengan koma (,)">
+      <span id="r7"></span>
+
+      <center>
+        <p><img src="pizzaaaaa.jpeg" width="175px" height="150px"></p>
+      </center>
+
+      <p>8. Dari gambar di atas terdapat satu loyang pizza yang telah dipotong menjadi 6 bagian, 
+        setelah itu dimakan 3 bagian. Jadi sisa pizza tinggal berapa? 
+        Dan tentukan pecahan senilainya!
+      </p>
+      <input type="text" id="q8" placeholder="Jawaban kamu...">
+      <span id="r8"></span>
+
+      <p>9. Sebuah kue dibagi menjadi 8 bagian yang sama besar. Dulha memakan 4 potong, sedangkan Hariyo memakan 2 potong dari kue yang dibagi menjadi 4 bagian sama besar. 
+        Siapa yang memakan bagian kue lebih banyak? Berikan alasanmu!
+      </p>
+      <input type="text" id="q9" placeholder="Jawaban kamu...">
+      <span id="r9"></span>
+
+      <p>10. Rina memotong kain sepanjang 
+        <img src="new dua tiga.jpeg" width="35px" height="30px"> meter. 
+        Lalu, dia ingin menunjukkan panjang yang sama tetapi dalam bentuk pecahan berbeda dengan penyebut 9. 
+        Berapa pecahan senilainya?
+      </p>
+      <input type="text" id="q10" placeholder="Jawaban kamu...">
+      <span id="r10"></span>
+
+      <br><br>
+      <center>
+        <button type="button" class="btn" onclick="periksaEvaluasi()">Periksa Jawaban</button>
+        <button class="btn" type="button" onclick="show('evaluasi')">Kembali</button>
+      </center>
+    </form>
+  </div>
+</div>
+
+<script>
+function periksaEvaluasi() {
+  const kunci = {
+    q1: "12/20",
+    q2: "30/50",
+    q3: "4/9",
+    q4: "3/11",
+    q5: ["8/12","12/18","16/24"],
+    q6: ["12/16","18/24","24/32"],
+    q7: ["2/5","3/7","4/9"],
+    q8: ["3/6","1/2"],
+    q9: "Dulha",
+    q10: "6/9"
+  };
+
+  for (let i = 1; i <= 10; i++) {
+    const input = document.getElementById("q" + i).value.trim().replace(/\s+/g,"");
+    const result = document.getElementById("r" + i);
+    let benar = false;
+
+    if (Array.isArray(kunci["q" + i])) {
+      benar = kunci["q" + i].some(j => input.includes(j));
+    } else {
+      benar = input.toLowerCase() === kunci["q" + i].toLowerCase();
+    }
+
+    if (benar) {
+      result.innerHTML = "✅ Benar";
+      result.style.color = "green";
+    } else {
+      result.innerHTML = "❌ Salah";
+      result.style.color = "red";
+    }
+  }
+}
+</script>
+
+<!-- EVALUASI GEOMETRI -->
+<div id="evaluasi geometri" class="container">
+  <div class="card">
+    <h3>EVALUASI PERSEGI PANJANG</h3>
+
+    <form id="quizEvaluasiGeometri">
+      <p>1. Diketahui panjang buku catatan 14 cm dan lebar buku catatan 7 cm. Tentukan keliling buku catatan tersebut!</p>
+      <input type="text" id="q1" placeholder="Jawaban dalam cm">
+      <span id="r1"></span>
+
+      <p>2. Keliling televisi adalah 100 cm dan lebarnya 20 cm. Tentukan panjang televisi tersebut!</p>
+      <input type="text" id="q2" placeholder="Jawaban dalam cm">
+      <span id="r2"></span>
+
+      <p>3. Sebuah meja memiliki panjang 80 cm dan lebarnya 40 cm. Tentukan keliling meja tersebut!</p>
+      <input type="text" id="q3" placeholder="Jawaban dalam cm">
+      <span id="r3"></span>
+
+      <p>4. Papan tulis memiliki panjang 24 cm dan lebar 16 cm. Tentukan luas papan tulis tersebut!</p>
+      <input type="text" id="q4" placeholder="Jawaban dalam cm²">
+      <span id="r4"></span>
+
+      <p>5. Sebuah pintu memiliki panjang 200 cm dan lebarnya 120 cm. Tentukan luas pintu tersebut!</p>
+      <input type="text" id="q5" placeholder="Jawaban dalam cm²">
+      <span id="r5"></span>
+
+      <p>6. Sebuah papan memiliki panjang 300 cm dan lebarnya 150 cm. Tentukan luas papan tersebut!</p>
+      <input type="text" id="q6" placeholder="Jawaban dalam cm²">
+      <span id="r6"></span>
+
+      <p>7. Sebuah taman berbentuk persegi panjang memiliki panjang 12 m dan lebar 8 m. Hitung keliling dan luas taman tersebut!</p>
+      <input type="text" id="q7a" placeholder="Keliling dalam m">
+      <input type="text" id="q7b" placeholder="Luas dalam m²">
+      <span id="r7"></span>
+
+      <p>8. Lapangan berbentuk persegi panjang memiliki keliling 48 m dan lebar 8 m. Hitung panjang dan luas lapangan!</p>
+      <input type="text" id="q8a" placeholder="Panjang dalam m">
+      <input type="text" id="q8b" placeholder="Luas dalam m²">
+      <span id="r8"></span>
+
+      <p>9. Jendela memiliki panjang 180 cm dan lebar 80 cm. Hitung keliling dan luas jendela!</p>
+      <input type="text" id="q9a" placeholder="Keliling dalam cm">
+      <input type="text" id="q9b" placeholder="Luas dalam cm²">
+      <span id="r9"></span>
+
+      <p>10. Karpet lantai memiliki panjang 350 cm dan lebar 200 cm. Hitung keliling dan luas karpet tersebut!</p>
+      <input type="text" id="q10a" placeholder="Keliling dalam cm">
+      <input type="text" id="q10b" placeholder="Luas dalam cm²">
+      <span id="r10"></span>
+
+      <br><br>
+      <button type="button" class="btn" onclick="cekEvaluasiGeometri()">Periksa Jawaban</button>
+      <button type="button" class="btn" onclick="show('evaluasi')">Kembali</button>
+    </form>
+  </div>
+</div>
+
+<script>
+function cekEvaluasiGeometri() {
+  // Kunci jawaban
+  const kunci = {
+    q1: "42",       // keliling = 2*(14+7)
+    q2: "30",       // 100 = 2*(p+20)
+    q3: "240",      // keliling = 2*(80+40)
+    q4: "384",      // luas = 24*16
+    q5: "24000",    // luas = 200*120
+    q6: "45000",    // luas = 300*150
+    q7a: "40",      // keliling = 2*(12+8)
+    q7b: "96",      // luas = 12*8
+    q8a: "16",      // 48 = 2*(p+8)
+    q8b: "128",     // luas = 16*8
+    q9a: "520",     // keliling = 2*(180+80)
+    q9b: "14400",   // luas = 180*80
+    q10a: "1100",   // keliling = 2*(350+200)
+    q10b: "70000"   // luas = 350*200
+  };
+
+  // Fungsi bantu
+  function cek(id, kunciId) {
+    const input = document.getElementById(id);
+    const res = document.getElementById("r" + id.slice(1, id.length - 1));
+    if (!input || !res) return;
+
+    if (input.value.trim() === kunci[kunciId]) {
+      input.style.border = "2px solid green";
+      res.textContent = " ✅ Benar";
+      res.style.color = "green";
+    } else {
+      input.style.border = "2px solid red";
+      res.textContent = " ❌ Salah";
+      res.style.color = "red";
+    }
+  }
+
+  // Periksa semua soal
+  for (let i = 1; i <= 10; i++) {
+    if (i <= 6) {
+      cek(`q${i}`, `q${i}`);
+    } else {
+      cek(`q${i}a`, `q${i}a`);
+      cek(`q${i}b`, `q${i}b`);
+    }
+  }
+}
+</script>
+
+
+  
+
+    
+
